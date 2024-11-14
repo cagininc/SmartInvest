@@ -1,0 +1,16 @@
+
+'use client';
+
+import React from 'react'
+import CountUp from 'react-countup'
+
+ const AnimatedCounter = ({amount}:{amount:number}) => {
+  return (
+    <div>
+        <CountUp duration={1} decimals={2} prefix='TL' end={amount}
+        
+        /> </div>
+  )
+}
+
+export default AnimatedCounter
