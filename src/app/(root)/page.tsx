@@ -9,7 +9,7 @@ const loggedIn={firstName:"Cagin",lastName:"INC",email:"cagininc@gmail.com"}
 
 
   return (
-    <section className="home">Home
+    <section className="home">
 <div className="home-content"> 
 <header className="home-header">
 
