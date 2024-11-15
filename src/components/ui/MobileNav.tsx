@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-// import Footer from "./Footer"
+// import Footer from "./Footer" 
 
 const MobileNav = ({ user }: MobileNavProps) => {
   const pathname = usePathname();
@@ -40,7 +40,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
               height={34}
               alt="SmartInvest logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Horizon</h1>
+            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">SmartInvest</h1>
           </Link>
           <div className="mobilenav-sheet">
             {/* active condition */}
